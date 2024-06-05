@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Art Institute of Chicago</title>
-  <link rel="stylesheet" href="styles.css">
+    <title>Open API Project</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Open API project Art Institute of Chicago API">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Art Institute of Chicago - Artworks</h1>
-    <div id="artworks-list"></div>
-  </div>
-  <script src="script.js"></script>
+
+    <h1 id="name">Open API Project: Art Institute of Chicago</h1>
+
+    <section id="Favorite Pieces">
+      <h2>Greyscale Art -- The Seventies</h2>
+      <ul id="artwork">
+      </ul>
+      <ul id="animal-crossing-art">
+      </ul>
+      <ul id="test-artwork">
+      </ul>
+
+      <ul id="test-artwork1"></ul>
+      <ul id="test-artwork2"></ul>
+    </section>
+
+    <script src="js/index.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetchTestArt1();
+            fetchTestArt2();
+        });
+    </script>
 </body>
+
 </html>

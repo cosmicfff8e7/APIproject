@@ -1,4 +1,3 @@
-// Function to fetch and display Test Art 1
 function fetchTestArt1() {
   const testArtUrl1 = "https://api.artic.edu/api/v1/artworks/245166";
   fetch(testArtUrl1)
@@ -37,7 +36,10 @@ function fetchTestArt1() {
     });
 }
 
-// Function to fetch and display Test Art 2
+
+
+
+
 function fetchTestArt2() {
   const testArtUrl2 = "https://api.artic.edu/api/v1/artworks/245164";
   fetch(testArtUrl2)
@@ -76,6 +78,5 @@ function fetchTestArt2() {
     });
 }
 
-// Fetch and display Test Art 1 and Test Art 2 initially
 fetchTestArt1();
 fetchTestArt2();
